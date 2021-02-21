@@ -23,6 +23,8 @@ USER rianby64
 # Autorun MetaTrader Terminal.
 ENTRYPOINT [ "wine" ]
 
-# CMD [ "/home/rianby64/mt5setup.exe" ]
+# CMD [ "/home/rianby64/mt4setup.exe" ]
+CMD [ "/home/rianby64/mt5setup.exe" ]
+
 # CMD [ "/home/rianby64/.wine/drive_c/Program Files/MetaTrader/terminal64.exe" ]
-CMD [ "/home/rianby64/.wine/drive_c/Program Files/MetaTrader 5/terminal64.exe" ]
+# CMD [ "/home/rianby64/.wine/drive_c/Program Files/MetaTrader 5/terminal64.exe" ]
